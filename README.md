@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://kan-portfolio-pricepepel.vercel.app">Portfolio</a> ·
+  <a href="https://kan-portfolio-pricepepels-projects.vercel.app">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/ruslan-kan-207692384/">LinkedIn</a> ·
   <a href="mailto:nicetryskrock@gmail.com">Email</a>
 </p>
@@ -15,7 +15,7 @@
 
 I ship production AI features for SaaS. Flat fee, no retainer, fast turnaround.
 
-Booking projects for **June 2026 onwards**. Most builds land between $1.5k and $12k depending on scope. [Trial sprint available at $1,000 for 5-7 days.](https://kan-portfolio-pricepepel.vercel.app#pricing)
+Booking projects for **June 2026 onwards**. Most builds land between $1.5k and $12k depending on scope. [Trial sprint available at $1,000 for 5-7 days.](https://kan-portfolio-pricepepels-projects.vercel.app#pricing)
 
 ---
 
@@ -64,4 +64,4 @@ See full case studies at [`kan-case-studies`](https://github.com/PricePepel/kan-
 
 Working with Claude Code as the dev workflow, which is why turnaround is faster than most freelance shops without sacrificing test coverage or production-readiness.
 
-Reach me at [nicetryskrock@gmail.com](mailto:nicetryskrock@gmail.com) or book a discovery call directly through the [portfolio](https://kan-portfolio-pricepepel.vercel.app).
+Reach me at [nicetryskrock@gmail.com](mailto:nicetryskrock@gmail.com) or book a discovery call directly through the [portfolio](https://kan-portfolio-pricepepels-projects.vercel.app).
