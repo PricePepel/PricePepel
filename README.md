@@ -1,45 +1,63 @@
-<h1 align="center">Ruslan Kan</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Ruslan Kan. Lead Software Developer at Bloomin, CTO of samanTA, CS at Minerva, class of 2030. A soroban abacus beside the name is set to 2027." src="assets/hero-light.svg" width="100%">
+</picture>
 
-<p align="center">
-  <strong>Full-stack + AI engineer.</strong> Incoming Minerva University CS '30 (San Francisco, Aug 2026).<br/>
-  TypeScript · React/Next.js · Python/FastAPI · Anthropic Claude + OpenAI. Tashkent · GMT+5.
-</p>
+I'm a first-year CS student at Minerva University, and I was shipping production AI products before I got here. I'm looking for a **Summer 2027 software engineering internship** in the US: backend, full-stack, AI/LLM applications or developer tools.
 
-<p align="center">
-  <a href="https://kan-portfolio-pricepepels-projects.vercel.app">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/ruslan-kan-207692384/">LinkedIn</a> ·
-  <a href="https://github.com/PricePepel">GitHub</a> ·
-  <a href="mailto:nicetryskrock@gmail.com">Email</a>
-</p>
+The abacus is set to 2027. I was the Aloha Mental Arithmetic World Grand Champion in 2018, so it felt right.
 
----
+[Portfolio](https://kan-portfolio-one.vercel.app) · [LinkedIn](https://www.linkedin.com/in/ruslan-kan-207692384/) · [Case studies](https://github.com/PricePepel/kan-case-studies) · [Email](mailto:ruslan.kan@uni.minerva.edu)
 
-**What I'm looking for:** software-engineering internships, especially **Summer 2027**.
+## What I'm building
 
-I build and ship production AI products end to end, frontend, backend, infra, and the LLM layer in between.
+### Bloomin
 
----
+Lead Software Developer since June 2025, promoted twice in under a year. I run engineering planning and code review across the product portfolio, and work through roadmap and architecture with the founding team in Chicago.
 
-## What I build
+### samanTA
 
-- **Bloomin** (formerly Saman AI Academy) — EdTech, EU EdTech4BY accelerator portfolio. I lead the engineering across two surfaces: **samanTA**, the AI tutor at [ta.saman.academy](https://ta.saman.academy), and **the Bloomin coach platform** at [trybloomin.ai](https://www.trybloomin.ai).
-- **TrainHire / Naviq** — B2B SaaS that turns a job spec into a generated onboarding academy with a gamified intern cabinet. Anthropic Claude generator with OpenAI fallback.
-- **OLMA** — production web work.
-- **Polymarket tracker** — zero-dependency cron scraper + paper-trading signal layer over the top-50 BTC 5-minute markets.
+Bloomin's AI quiz and tutoring platform for schools, Telegram-first. I'm the CTO, and I own the technology end to end: React web app, FastAPI backend, Telegram bot and Mini App. A PDF goes in, gpt-4o drafts the quiz, and a deterministic schema check runs before anything is saved. Its usage results helped Bloomin win a €20,000 grant from EdTech4BY.
 
----
+The notification engine is a 5-stage ladder that resets the moment a student comes back:
 
-## Stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/samanta-ladder-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/samanta-ladder-light.svg">
+  <img alt="samanTA's notification ladder. Five stages: Reminder, Gentle Nudge, Streak Urgency, Empathy, Last Call. When a user comes back, a database trigger resets them to stage 1." src="assets/samanta-ladder-light.svg" width="100%">
+</picture>
 
-`TypeScript` `React / Next.js` `Python / FastAPI` `Supabase / Postgres`
-`Anthropic Claude` `OpenAI` `Docker` `Vercel`
+### [polymarket-tracker](https://github.com/PricePepel/polymarket-tracker)
 
----
+A research agent for Polymarket's BTC 5-minute markets that runs itself on GitHub Actions, with 366+ unattended scans over 3 days. It's paper-traded only. The interesting part is the infrastructure: keeping an unattended system correct when cron drifts and runs collide.
 
-## Selected reading
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/polymarket-loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/polymarket-loop-light.svg">
+  <img alt="polymarket-tracker's self-healing loop. Two independent cron triggers start one scan, which writes state.json. A 10-minute lookback recovers missed markets, and the log regenerates from state." src="assets/polymarket-loop-light.svg" width="100%">
+</picture>
 
-- Case studies: [`kan-case-studies`](https://github.com/PricePepel/kan-case-studies)
-- Peer-reviewed paper (JFBD): https://economicjournals.org/index.php/JFBD/article/view/51
-- Résumé and full portfolio: [kan-portfolio-pricepepels-projects.vercel.app](https://kan-portfolio-pricepepels-projects.vercel.app)
+### [Naviq](https://naviq.vercel.app)
 
-Reach me at [nicetryskrock@gmail.com](mailto:nicetryskrock@gmail.com).
+B2B SaaS I founded. Paste a job description and Claude writes a 20-lesson training academy, then employers enrol interns and track their progress. Next.js 16, Supabase, English and Russian. In active build.
+
+### [OLMA](https://github.com/PricePepel/OLMA)
+
+Peer-learning network I founded and shipped in 4 months. School No. 166 still uses it, with 300 active users, and Bloomin incorporated its coach-to-student code.
+
+## Also
+
+- Published a [paper](https://economicjournals.org/index.php/JFBD/article/view/51) on AI in Uzbekistan's banking and insurance systems (JFBD, 2025).
+- 30+ olympiads in math and academics.
+- Taught Python and web basics to 80+ students at ITSTEP, as a volunteer.
+- Minerva moves me through San Francisco, Tokyo, Buenos Aires and Berlin by 2030. I'm in San Francisco now.
+
+## Tools I reach for
+
+**Languages:** TypeScript, Python, JavaScript<br>
+**Product:** React, Next.js, FastAPI, Supabase, Postgres<br>
+**AI:** Anthropic Claude API, OpenAI API, Claude Code, MCP servers<br>
+**Infra:** GitHub Actions, Vercel, Render, Docker, Telegram Bot Platform
+
+The best way to reach me is [ruslan.kan@uni.minerva.edu](mailto:ruslan.kan@uni.minerva.edu).
