@@ -16,7 +16,7 @@ The abacus is counting to 2027. I was the Aloha Mental Arithmetic World Grand Ch
 
 ### [Bloomin](https://www.trybloomin.ai) and [samanTA](https://ta.saman.academy)
 
-I'm Lead Software Developer at Bloomin since June 2025, **promoted twice in under a year**, and CTO of samanTA, its AI quiz and tutoring platform for schools. I own samanTA's technology end to end: React web app, FastAPI backend, Telegram bot and Mini App. A PDF goes in, gpt-4o drafts the quiz, and a deterministic schema check runs before anything is saved. Its usage results helped Bloomin win a **€20,000 grant** from EdTech4BY.
+I'm Lead Software Developer at Bloomin since June 2025, **promoted twice in under a year**, and CTO of samanTA, its AI quiz and tutoring platform for schools. I own samanTA's technology end to end: React web app, FastAPI backend, Telegram bot and Mini App. A PDF goes in, gpt-4o drafts the quiz, and a deterministic schema check runs before anything is saved. Its usage results helped Bloomin win a **€20,000 grant** from EdTech4BY. To bring students back, its notifications escalate through 5 stages and reset the moment someone returns.
 
 ### [OLMA](https://github.com/PricePepel/OLMA)
 
@@ -33,8 +33,8 @@ B2B SaaS I founded. Paste a job description and Claude writes a 20-lesson traini
 ## How two of them work
 
 <p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/samanta-ladder-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/samanta-ladder-light.svg"><img alt="samanTA's notification ladder. Five stages: Reminder, Gentle Nudge, Streak Urgency, Empathy, Last Call. When a student returns, a database trigger resets them to stage 1." src="assets/samanta-ladder-light.svg" width="410"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/polymarket-loop-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/polymarket-loop-light.svg"><img alt="polymarket-tracker's self-healing loop. Two independent cron triggers start one scan, which writes state.json. A 10-minute lookback recovers markets that cron drift missed." src="assets/polymarket-loop-light.svg" width="410"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/samanta-ladder-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/samanta-ladder-light.svg"><img alt="samanTA's notification ladder. Five stages: Reminder, Gentle Nudge, Streak Urgency, Empathy, Last Call. When a student returns, a database trigger resets them to stage 1." src="assets/samanta-ladder-light.svg" width="420"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/polymarket-loop-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/polymarket-loop-light.svg"><img alt="polymarket-tracker's self-healing loop. Two independent cron triggers start one scan, which writes state.json. A 10-minute lookback recovers markets that cron drift missed." src="assets/polymarket-loop-light.svg" width="420"></picture>
 </p>
 
 ## Also
