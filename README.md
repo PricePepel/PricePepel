@@ -1,14 +1,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Ruslan Kan. Lead Software Developer at Bloomin, CTO of samanTA, CS at Minerva, class of 2030, seeking a Summer 2027 SWE internship. A soroban abacus beside the name is set to 2027." src="assets/hero-light.svg" width="100%">
+  <img alt="Ruslan Kan. Seeking a Summer 2027 SWE internship. Lead Software Developer at Bloomin, CTO of samanTA, CS at Minerva, class of 2030. An abacus counts from 2018 to 2027 as a caption moves through World Grand Champion in mental math, starting at Bloomin, and becoming CTO while starting at Minerva." src="assets/hero-light.svg" width="100%">
 </picture>
 
 <br>
 
 I'm a first-year CS student at Minerva University, and I was shipping production AI products before I got here. I'm looking for a **Summer 2027 software engineering internship** in the US, on a team where I can learn large-scale systems: the part of engineering I've only seen at small scale.
 
-The abacus is set to 2027. I was the Aloha Mental Arithmetic World Grand Champion in 2018, so it felt right.
+The abacus is counting to 2027. I was the Aloha Mental Arithmetic World Grand Champion in 2018, so it felt right.
 
 [Portfolio](https://kan-portfolio-one.vercel.app) · [LinkedIn](https://www.linkedin.com/in/ruslan-kan-207692384/) · [Case studies](https://github.com/PricePepel/kan-case-studies) · [Email](mailto:ruslan.kan@uni.minerva.edu)
 
