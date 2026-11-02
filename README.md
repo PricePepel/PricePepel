@@ -24,7 +24,7 @@ Peer-learning network I founded and shipped in 4 months. School No. 166 still us
 
 ### [polymarket-tracker](https://github.com/PricePepel/polymarket-tracker)
 
-A research agent for Polymarket's BTC 5-minute markets that runs itself on GitHub Actions, paper-traded only. When cron drifts, it recovers the markets it missed. When runs collide, the rebase resolves itself. It ran 366+ unattended scans over 3 days.
+A research agent for Polymarket's BTC 5-minute markets that ran itself on GitHub Actions, paper-traded only. When cron drifted, it recovered the markets it missed. When runs collided, the rebase resolved itself. Over 1,493 paper trades it hit 71%, almost exactly break-even at the prices it paid, and its sizing took the bankroll from a $202.84 peak to $0.10. [Here's why that happened](https://github.com/PricePepel/kan-case-studies/blob/main/polymarket.md).
 
 ### [Naviq](https://naviq.vercel.app)
 
