@@ -1,4 +1,6 @@
 <picture>
+  <source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="assets/hero-mobile-dark.svg">
+  <source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
   <img alt="Ruslan Kan. Seeking a Summer 2027 SWE internship. Lead Software Developer at Bloomin, CTO of samanTA, CS at Minerva, class of 2030. An abacus counts from 2018 to 2027 as a caption moves through World Grand Champion in mental math, starting at Bloomin, and becoming CTO while starting at Minerva." src="assets/hero-light.svg" width="100%">
@@ -33,8 +35,8 @@ B2B SaaS I founded. Paste a job description and Claude writes a 20-lesson traini
 ## How two of them work
 
 <p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/samanta-ladder-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/samanta-ladder-light.svg"><img alt="samanTA's notification ladder. Five stages: Reminder, Gentle Nudge, Streak Urgency, Empathy, Last Call. When a student returns, a database trigger resets them to stage 1." src="assets/samanta-ladder-light.svg" width="420"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/polymarket-loop-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/polymarket-loop-light.svg"><img alt="polymarket-tracker's self-healing loop. Two independent cron triggers start one scan, which writes state.json. A 10-minute lookback recovers markets that cron drift missed." src="assets/polymarket-loop-light.svg" width="420"></picture>
+<picture><source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="assets/samanta-ladder-mobile-dark.svg"><source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="assets/samanta-ladder-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/samanta-ladder-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/samanta-ladder-light.svg"><img alt="samanTA's notification ladder. Five stages: Reminder, Gentle Nudge, Streak Urgency, Empathy, Last Call. When a student returns, a database trigger resets them to stage 1." src="assets/samanta-ladder-light.svg" width="420"></picture>
+<picture><source media="(max-width: 500px) and (prefers-color-scheme: dark)" srcset="assets/polymarket-loop-mobile-dark.svg"><source media="(max-width: 500px) and (prefers-color-scheme: light)" srcset="assets/polymarket-loop-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/polymarket-loop-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/polymarket-loop-light.svg"><img alt="polymarket-tracker's self-healing loop. Two independent cron triggers start one scan, which writes state.json. A 10-minute lookback recovers markets that cron drift missed." src="assets/polymarket-loop-light.svg" width="420"></picture>
 </p>
 
 ## Also
